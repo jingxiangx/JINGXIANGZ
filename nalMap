@@ -1,0 +1,6 @@
+            internalMap = newMap;
+            return val;
+        }
+    }
+ 
+    public V get(Object key) {
