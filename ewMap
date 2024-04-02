@@ -1,0 +1,7 @@
+    }
+ 
+    public V put(K key, V value) {
+ 
+        synchronized (this) {
+            Map<K, V> newMap = new HashMap<K, V>(internalMap);
+            V val = newMap.put(key, value);
