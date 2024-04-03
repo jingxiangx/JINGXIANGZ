@@ -1,0 +1,2 @@
+public E get(int index) {return get(getArray(), index);}
+private E get(Object[] a, int index) {return (E) a[index];}
