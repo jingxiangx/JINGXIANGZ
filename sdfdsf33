@@ -1,0 +1,7 @@
+        while (i < j) {
+            while (arr[i] <= arr[pivot] && i <= high)
+                i++;
+            while (arr[j] > arr[pivot] && j >= low)
+                j--;
+            if (i < j) {
+                temp = arr[i];
